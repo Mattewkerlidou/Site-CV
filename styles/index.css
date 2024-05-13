@@ -18,7 +18,7 @@ body {
 	display: flex;
 }
 .Navbar a{
-	padding: 10px 30px;
+	padding: 20px 30px;
 	position: relative;
 	font-size: 40px ;
 	margin: 0 0 0 70px;
@@ -50,11 +50,11 @@ body {
 	color : white
 	
 }
-.Presentation h1 {
+h1 {
 	text-align: center;
 	
 }
-.Presentation h2 {
+h2 {
 	text-align: center;
 	
 }
@@ -91,4 +91,12 @@ body {
 	background-position: center;
 	margin: 0 0 0 120px;
 	filter: drop-shadow(0 0 0.1rem white);
+}
+.Competences div {
+	display: inline-block;
+}
+.Competences img {
+	position: relative;
+	height: 64px;
+	width: 64px;
 }
