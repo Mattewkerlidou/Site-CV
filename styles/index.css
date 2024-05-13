@@ -1,29 +1,94 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-image:url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejY5aGZmMzRzZjV2NzZ4dnRtbHk1NHh6ejViN2pqNTQxMml2eWI5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26wd3vwbwlGg9cUc8/giphy.gif") ;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
 .Navbar{
-    max-width: 1500px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #3d443c;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    margin-top: auto;
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: rgb(61, 68, 60);
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+	margin-top: auto;
+	display: flex;
 }
 .Navbar a{
-    padding: 15px 30px;
-    position: relative;
-    border-left: 1px solid black;
-    font-size: 75px ;
-    margin: 0 0 0 70px;
-    text-decoration: none;
-    color: white;
+	padding: 10px 30px;
+	position: relative;
+	font-size: 40px ;
+	margin: 0 0 0 70px;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+	border-radius: 20px;
+}
+.Navbar a:hover{
+	background-color: rgb(89, 99, 87);
 }
 .image {
 
-    position: relative;
-    height: 8%;
-    width: 8%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+	position: relative;
+	height: 8%;
+	width: 8%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
-
+.Presentation{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #3d443c;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+	margin-top: auto;
+	color : white
+	
+}
+.Presentation h1 {
+	text-align: center;
+	
+}
+.Presentation h2 {
+	text-align: center;
+	
+}
+.Presentation p {
+	text-align: center;
+	font-size: 15px;
+}
+.Competences{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #3d443c;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+	margin-top: auto;
+	color : white
+}
+.GitHub{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #3d443c;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+	margin-top: auto;
+	color : white
+}
+.Presentation img {
+	position: relative;
+	height: 30%;
+	width: 30%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin: 0 0 0 120px;
+	filter: drop-shadow(0 0 0.1rem white);
+}
