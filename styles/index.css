@@ -3,9 +3,12 @@
 
 body {
 	font-family: "Open Sans", sans-serif;
-	background-image:url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejY5aGZmMzRzZjV2NzZ4dnRtbHk1NHh6ejViN2pqNTQxMml2eWI5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26wd3vwbwlGg9cUc8/giphy.gif") ;
-	background-repeat: no-repeat;
-	background-size:cover;
+	
+}
+html{
+	overflow-y: scroll;
+	scrollbar-color:  #061125 #0F3163;
+	scrollbar-width: thin;
 }
 .Navbar{
 	max-width: 1000px;
@@ -70,7 +73,8 @@ h2 {
 	border-radius: 8px;
 	box-shadow: 0 0 10px rgb(0, 0, 0);
 	margin-top: auto;
-	color : white
+	color : white;
+	text-align: center;
 }
 .GitHub{
 	max-width: 1000px;
@@ -94,9 +98,13 @@ h2 {
 }
 .Competences div {
 	display: inline-block;
+	margin: 0 15px 0 15px;
 }
 .Competences img {
 	position: relative;
 	height: 64px;
 	width: 64px;
+}
+hr{
+	margin: 10px 0 20px 0;
 }
