@@ -8,7 +8,7 @@ body {
 html{
 	overflow-y: scroll;
 	scrollbar-color:  #061125 #0F3163;
-	scrollbar-width: thin;
+	scrollbar-width: thin ;
 }
 .Navbar{
 	max-width: 1000px;
@@ -97,12 +97,12 @@ h2 {
 }
 .Presentation img {
 	position: relative;
-	height: 30%;
-	width: 30%;
+	height: 22%;
+	width: 22%;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
-	margin: 0 0 0 120px;
+	margin: 0 0 0 180px;
 	filter: drop-shadow(0 0 0.1rem white);
 }
 .Competences div {
@@ -126,4 +126,22 @@ hr
 .GitHub a 
 {
 	color: lightblue;
+	font-style: italic;
+}
+.footer{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #3d443c;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+	position: relative;
+	margin: 0 0 0 425.500px;
+	text-align: center;
+	margin-top: auto;
+	color : white;
+}
+.footer a{
+	font-style: italic;
+	color: black;
 }
